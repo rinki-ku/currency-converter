@@ -6,15 +6,15 @@
 
 A React and Redux app using [Create React App](https://github.com/facebook/create-react-app) to replicate the functionality of Revolut Android's app (Exchange activity).
 
-Uses [exchangeratesapi.io](https://api.exchangeratesapi.io/latest") to fetch the latest FX rates every 10 seconds.
+Uses [exchangeratesapi.io](https://api.exchangeratesapi.io/latest) to fetch the latest FX rates every 10 seconds.
 
 ![Screenshot of Revolut Exchange](revolut-exchange.png)
 
-#### Project Building:
+### Project Building:
 
 In the project directory, follow below steps to run:
 
-### Installation
+### `npm install`
 
 - Clone or download `https://github.com/rinki-ku/currency-exchange`
 - Run `npm install`
