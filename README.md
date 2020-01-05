@@ -43,5 +43,4 @@ Your app is ready to be deployed!
 
 - React
 - Redux
-- Axios
 - Sass
