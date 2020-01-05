@@ -1,0 +1,37 @@
+.currency-selector {
+  display: inline-block;
+  padding-right: 30px;
+  box-sizing: border-box;
+  position: relative;
+  select {
+    font-weight: 300;
+    outline: 0;
+    height: 48px;
+    background-color: transparent;
+    margin-bottom: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 47px;
+    border: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 100px;
+    text-overflow: "";
+    color: #fff;
+    cursor: pointer;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 26px;
+    right: 85px;
+    border-style: solid;
+    border-width: 5px 5px 0;
+    border-color: #ffffff transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    cursor: pointer;
+  }
+}

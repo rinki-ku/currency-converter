@@ -1,0 +1,24 @@
+.panel {
+  background-color: transparent;
+  display: inline-block;
+  > input {
+    height: 80px;
+    width: 100%;
+    outline: none;
+    font-size: 52px;
+    font-weight: 200;
+    text-indent: 25px;
+    margin-bottom: 10px;
+    color: #fff;
+    background: transparent;
+    border: none;
+    &::placeholder {
+      color: #ddd;
+      text-shadow: none;
+      -webkit-text-fill-color: initial;
+    }
+  }
+  &.active-panel {
+    background: #1a4cad36;
+  }
+}

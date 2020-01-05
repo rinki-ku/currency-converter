@@ -1,0 +1,96 @@
+.App {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+  h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .app-wrapper {
+    background-color: #276ef9;
+    border-radius: 7px;
+    padding-top: 20px;
+    overflow: hidden;
+  }
+  .converter {
+    height: 200px;
+    padding: 0px 200px;
+    position: relative;
+    &:last-child {
+      background-color: #2759ce;
+      padding-top: 60px;
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 48%;
+        border-style: solid;
+        border-width: 15px 15px 0;
+        border-color: #276ef9 transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+      }
+    }
+    > div {
+      width: 50%;
+    }
+    .ex-button {
+      text-align: center;
+      width: 100% !important;
+      margin-top: 40px;
+      button {
+        background: #eb008d none;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        color: white;
+        outline: 0;
+        -webkit-box-shadow: 0 0 0 1px #eb008d;
+        box-shadow: 0 0 0 1px #eb008d;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 10px 70px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .App {
+    width: 100%;
+    .app-wrapper {
+      margin: 0 10px;
+      .converter {
+        height: 115px;
+        padding: 0 20px;
+        .currency-selector {
+          select {
+            font-size: 24px;
+            border: 1px solid #ffffff59;
+            text-indent: 14px;
+          }
+          &:after {
+            top: 23px;
+            right: 45px;
+          }
+        }
+        .panel {
+          input {
+            height: 40px;
+            font-size: 30px;
+          }
+        }
+        .ex-button {
+          margin-top: 30px;
+        }
+        &:last-child {
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
