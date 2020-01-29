@@ -2,13 +2,13 @@
   	<img height="50" src="public/currency.png" alt="Currnecy Exchange" /> <br> Currency Exchange
 </h1>
 
-### Revolut Currency Exchange
+### Currency Exchange
 
 A React and Redux app using [Create React App](https://github.com/facebook/create-react-app) to replicate the functionality of Revolut Android's app (Exchange activity).
 
 Uses [exchangeratesapi.io](https://api.exchangeratesapi.io/latest) to fetch the latest FX rates every 10 seconds.
 
-![Screenshot of Revolut Exchange](revolut-exchange.png)
+![Screenshot of Exchange](revolut-exchange.png)
 
 ### Project Building:
 
