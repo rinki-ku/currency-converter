@@ -8,7 +8,7 @@ A React and Redux app using [Create React App](https://github.com/facebook/creat
 
 Uses [exchangeratesapi.io](https://api.exchangeratesapi.io/latest) to fetch the latest FX rates every 10 seconds.
 
-![Screenshot of Exchange](revolut-exchange.png)
+![Screenshot of Exchange](currency-exchange.png)
 
 ### Project Building:
 
